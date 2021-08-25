@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HuaMengxinYu.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-08-25T02:36:24.564Z</updated>
+    <title>范怡王涵</title>
+    <updated>2021-08-25T02:38:50.356Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HuaMengxinYu.github.io"/>
     <link rel="self" href="https://HuaMengxinYu.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://HuaMengxinYu.github.io/images/avatar.png</logo>
     <icon>https://HuaMengxinYu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, 范怡王涵</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://HuaMengxinYu.github.io/post/hello-gridea/</id>
