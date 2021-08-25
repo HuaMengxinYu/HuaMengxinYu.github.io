@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://HuaMengxinYu.github.io</id>
     <title>范怡王涵</title>
-    <updated>2021-08-25T03:54:16.122Z</updated>
+    <updated>2021-08-25T03:55:29.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://HuaMengxinYu.github.io"/>
     <link rel="self" href="https://HuaMengxinYu.github.io/atom.xml"/>
@@ -15,8 +15,12 @@
         <id>https://HuaMengxinYu.github.io/post/welcome/</id>
         <link href="https://HuaMengxinYu.github.io/post/welcome/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>👏  欢迎访问 <strong>范怡王涵</strong>博客网站 ！<br>
+        <updated>2021-08-25T03:55:20.000Z</updated>
+        <summary type="html"><![CDATA[<p>感谢大家一直以来的支持！！！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>感谢大家一直以来的支持！！！</p>
+<!-- more -->
+<p>👏  欢迎访问 <strong>范怡王涵</strong>博客网站 ！<br>
 ✍️  <strong>范怡王涵</strong> 是一家于2020年成立的多范围的非营利性工作室<br>
 😀目前致力于公益教育事业与游戏开发行业</p>
 <p>🙌本博客于2020年初成立，经历了许多。<br>
