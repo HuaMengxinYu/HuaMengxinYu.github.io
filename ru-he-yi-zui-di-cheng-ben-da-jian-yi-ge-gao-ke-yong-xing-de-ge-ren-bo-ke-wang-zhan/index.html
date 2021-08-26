@@ -21,10 +21,9 @@
     <meta name="description" content="准备工作
 在开始本教程之前，我们要开始点准备😝：
 
-
 一个邮箱！（这是必须的！！！😡）
 一个域名（无需备案）（可不准备，但是会导致网站可用率大幅度下降 ）
-一台可以正常连接到GitHub的电脑！（如果无法访问或者间断性无法访问，建议科学..." />
+一台可以正常连接到GitHub的电脑！（如果无法访问或者间断性无法访问，建议科学上..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -102,8 +101,7 @@
             
             <div class="post-content" v-pre>
               <h1 id="准备工作">准备工作</h1>
-<pre><code>在开始本教程之前，我们要开始点准备😝：
-</code></pre>
+<h2 id="在开始本教程之前我们要开始点准备">在开始本教程之前，我们要开始点准备😝：</h2>
 <ol>
 <li>一个邮箱！（这是必须的！！！😡）</li>
 <li>一个域名（无需备案）（<strong>可不准备，但是会导致网站可用率大幅度下降</strong> ）</li>
@@ -120,8 +118,56 @@
 <img src="https://z3.ax1x.com/2021/08/25/hZ2lq0.png" alt="基本信息输入" loading="lazy"><br>
 <img src="https://z3.ax1x.com/2021/08/25/hZ2uxs.png" alt="验证码页面" loading="lazy"><br>
 <img src="https://z3.ax1x.com/2021/08/25/hZ2OQs.png" alt="邮件" loading="lazy"><br>
-在输入完邮箱（早就让你准备了！😟）、密码、用户名和确认的字母Y后，输入发送到你邮箱的验证码</li>
+在输入完邮箱（早就让你准备了！😟）、密码、用户名和确认的字母Y后，输入发送到你邮箱的验证码完成github的注册！！！😎😎😎<br>
+然后他会询问你的年龄和感兴趣的仓库以及你的仓库计划（前两个按照真实的填就可以了，仓库计划选择free！！但是如果你有钱请随意！😐）</li>
 </ol>
+<h2 id="第二步-创建一个仓库并且获取到github的token">第二步 创建一个仓库并且获取到GitHub的Token！😋</h2>
+<ol>
+<li>点击右上角的加号，并且选择第一个选项，进入创建仓库页面<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZWs8e.png" alt="" loading="lazy"></li>
+<li>创建仓库，存放构建后的网站文件。创建一个公开仓库，Repository name为<strong>用户名.github.io</strong>（将用户名替换为你的 GitHub 用户名，必须这么填！！！），并且选择<strong>Public</strong>及下方的<strong>Add a README file</strong>。<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZf9xJ.png" alt="" loading="lazy"><br>
+完成上方的配置后，你将会得到以下页面<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZfDZq.png" alt="" loading="lazy"></li>
+<li>接下来创建一个仓库 Token<br>
+点击<strong>https://github.com/settings/tokens/new</strong>创建一个 Token。<br>
+<strong>Note</strong>随意填，<strong>Expiration</strong>选择<strong>No Expiration</strong>（即永不过期），勾选上 <strong>repo</strong> 的相关权限<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZfOQH.png" alt="" loading="lazy"><br>
+创建后，你将会得到以下页面<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZhY01.png" alt="" loading="lazy"><br>
+复制Token备用！！！！！一旦关闭网页将不能再看到它！！！</li>
+</ol>
+<h3 id="这样我们就创建了一个仓库并且获取到了github的token">这样我们就创建了一个仓库并且获取到了GitHub的Token。🙏🙏</h3>
+<h2 id="第三步-配置gridea使其与github通讯">第三步 配置Gridea，使其与GitHub通讯！</h2>
+<p>进入 Gridea 进行远程设置。</p>
+<ol>
+<li>域名输入<strong>用户名.github.io</strong></li>
+<li>仓库输入<strong>用户名.github.io</strong></li>
+<li>分支输入<strong>main</strong></li>
+<li>用户名和Token输入对应的即可<br>
+（如果你想使用自己的域名，你需要将<strong>域名</strong>与<strong>CNAME</strong>改成自己的域名信息！！，然后将自己的域名解析到<strong>用户名.github.io</strong>）<br>
+然后点击「检测远程链接」，进行配置检查😃😃<br>
+如果提示<strong>远程连接成功</strong>即可点击保存！<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZ5MM4.png" alt="" loading="lazy"><br>
+紧接着点击 Gridea 中的<strong>同步</strong>按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你所填写的域名。（成功访问的时候是不是有一点的小激动呢😂😂，如果显示<strong>无法访问网页</strong>，试着多刷新几次！！或者等待一会在刷新！😑😑毕竟同步也是需要时间的！）<br>
+<strong>别放弃！因为还有好长一段路呢！！😛😛</strong></li>
+</ol>
+<h2 id="第四步-选择一个适合自己的主题并且通过jsdelivr加速github部署的css文件以提高访问速度">第四步 选择一个适合自己的主题并且通过jsdelivr加速GitHub部署的CSS文件以提高访问速度！</h2>
+<p>Gridea官方提供了几款默认的主题，如果你需要更多的主题，请访问<strong>https://gridea.dev/themes</strong><br>
+下载后解压在你的Gridea安装目录下的themes文件夹里，重启Gridea即可在<strong>主题 》选择主题</strong>使用！<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZ7j9x.png" alt="" loading="lazy"><br>
+（选择完主题并且进行配置之后，别忘了点击左下角的<strong>同步</strong>，否则网页是不会变动的！✍️✍️✍️这点非常重要，每次修改完配置，或写完文章，都要点击<strong>同步</strong>，然后等待2-5分钟刷新网页，才会有变更的效果！！）😏😏😏<br>
+这里以官方内置的主题simple为例，使用jsdelivr加速主题css文件！<br>
+首先你要在Gridea的主题设置里面，设置头像与网页图标，<strong>同步</strong>并等待2-5分钟，刷新网页，直到网页显示新图片为止。<br>
+紧接着在网页上右键打开<strong>查看网页源代码</strong>，你会发现三个以<strong>用户名.github.io</strong>或你自己域名开头的开头的网址，他们分别是一个以main.css结尾的css文件，与两个中间掺杂着picture或image的的图片文件。<br>
+复制以main.css结尾的css文件的链接<br>
+打开<strong>https://www.jsdelivr.com/github</strong><br>
+<img src="https://z3.ax1x.com/2021/08/25/hZbSGq.png" alt="" loading="lazy"><br>
+在第一栏输入刚才复制的文件链接，第二栏将自动得出加速后的链接地址，复制备用😶<br>
+紧接着打开Gridea的安装目录，打开<strong>themes</strong>下的<strong>simple</strong>文件夹（不同主题的文件夹名称不一样，这里以simple主题作为参考），然后进入<strong>templates</strong>文件夹 》<strong>_blocks</strong>文件夹<br>
+<img src="https://z3.ax1x.com/2021/08/25/hZb5mF.png" alt="" loading="lazy"><br>
+然后打开head.ejs(使用记事本打开即可)<br>
+将其中的&lt;%=themeConfig.domain%&gt;/styles/main.css替换为刚才复制的加速链接，Ctrl+S保存并且关闭窗口。</p>
 
             </div>
             
