@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://fanyiwanghan.com</id>
     <title>范怡王涵工作室</title>
-    <updated>2021-08-28T10:29:46.523Z</updated>
+    <updated>2021-08-28T10:30:20.128Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://fanyiwanghan.com"/>
     <link rel="self" href="http://fanyiwanghan.com/atom.xml"/>
-    <subtitle>致力于公益教育事业与游戏开发行业
-&lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh&quot;&gt;&lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;本作品采用&lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh&quot;&gt;知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议&lt;/a&gt;进行许可。</subtitle>
+    <subtitle>&lt;p&gt;致力于公益教育事业与游戏开发行业&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh&quot;&gt;&lt;img alt=&quot;知识共享许可协议&quot; style=&quot;border-width:0&quot; src=&quot;https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;本作品采用&lt;a rel=&quot;license&quot; href=&quot;https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh&quot;&gt;知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议&lt;/a&gt;进行许可。&lt;/p&gt;</subtitle>
     <logo>http://fanyiwanghan.com/images/avatar.png</logo>
     <icon>http://fanyiwanghan.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 范怡王涵工作室</rights>
